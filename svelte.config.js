@@ -20,7 +20,7 @@ const config = {
 		}),
 		paths: {
 			base: process.env.NODE_ENV === 'gh-pages' ? '/departure-board-configuration-web' : '',
-			relative: false
+			relative: process.env.NODE_ENV !== 'gh-pages'
 		},
 		prerender: {
 			handleMissingId: 'warn'
