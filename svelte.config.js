@@ -19,7 +19,7 @@ const config = {
 			strict: true
 		}),
 		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/departure-board-configuration-web' : '',
+			base: process.env.NODE_ENV === 'gh-pages' ? '/departure-board-configuration-web' : '',
 			relative: false
 		},
 		prerender: {
